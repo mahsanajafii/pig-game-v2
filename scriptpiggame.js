@@ -28,6 +28,7 @@ const defultdata = function () {
 const switchplayer = function () {
   document.getElementById(`current--${activeplayer}`).textContent = 0;
   scorecurent = 0;
+  
   activeplayer = activeplayer === 0 ? 1 : 0;
   player1.classList.toggle("activeplayer");
   player2.classList.toggle("activeplayer");
